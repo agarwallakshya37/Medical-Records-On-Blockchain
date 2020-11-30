@@ -83,6 +83,29 @@ contract medRec{
         }
         return true;
     }
+    
+    
+    // function viewPatientRecords(address _dkey, address _pkey) public view returns(Patient[] memory){
+        
+    //     require(msg.sender==_dkey);
+    //     require(viewPermit[_pkey][_dkey]==true);
+    //     Patient[]memory patientRecordList=new Patient[](noOfRecords[_pkey]);
+    //     for(uint i=1; i<=noOfRecords[_pkey]; i++) {
+    //         patientRecordList[i-1]=patientRecord[_pkey][i];
+    //     }
+    //     return patientRecordList;
+    // }
+    
+
+    // function viewOwnRecords(address _pkey) public view returns(Patient[] memory){
+        
+    //     require(msg.sender==_pkey);
+    //     Patient[]memory ownRecordList=new Patient[](noOfRecords[_pkey]);
+    //     for(uint i=1; i<=noOfRecords[_pkey]; i++) {
+    //         ownRecordList[i-1]=patientRecord[_pkey][i];
+    //     }
+    //     return ownRecordList;
+    // }   
 
 
 }
