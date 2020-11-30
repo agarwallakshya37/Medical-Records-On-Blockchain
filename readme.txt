@@ -3,6 +3,8 @@ Pre-requisites:-
 npm
 truffle
 ganache
+web3.js
+nodejs
 
 
 Commands to run:-
