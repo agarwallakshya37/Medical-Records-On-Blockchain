@@ -16,7 +16,7 @@ contract medRec{
         string uniqueKey;
     }
     
-    mapping(address=> mapping(address=>bool))internal addPermit; // mapping for the doctor's add Permission
+    mapping(address=> mapping(address=>bool))internal addPermit; // mapping for the doctor's create Permission
     mapping(address=> mapping(address=>bool))internal viewPermit;  // mapping for the doctor's view Permission
     mapping(address=>uint)public noOfRecords; // mapping of all the records for individual patient
     mapping(address=>mapping(uint=>Patient))public patientRecord; //mapping for the all the patients record
