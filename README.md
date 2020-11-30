@@ -1,13 +1,13 @@
 # Medical-Records-On-Blockchain
 A DAPP for storing Medical records on the Blockchain using npm, Truffle, Ganache-cli, Web3.js Library.
 
-# Pre-requisites:- 
+# Pre-requisites
     npm
     truffle
     ganache
     web3.js
 
-# Commands to run:-
+# Commands to run
 
     ganache-cli (in separate cmd)
 
@@ -18,11 +18,13 @@ A DAPP for storing Medical records on the Blockchain using npm, Truffle, Ganache
         npm run dev
 
 
-# Configure metamask:-
+# Configure metamask
 
     switch to localhost:8545
     import accounts from ganache using private keys
     Manually connect imported accounts if they don't connect automatically
 
 
-Use browser's console(press f12) to see verbose results and errors
+# Debugging 
+
+    Use browser's console(press f12) to see verbose results and errors
