@@ -53,5 +53,5 @@ A DAPP for storing Medical records on the Blockchain using npm, Truffle, Ganache
 
 ![](images/view_record.png)
 
-* Once the doctor has added one record the add record method will automatically revoke his permission so that he can't add more than one record at one time. 
+* Once the doctor has added one record the add record method will automatically revoke his permission so that he can't add more than one record at one time. To add another record, the docotor would require create permission from the patient again.
 * Patient will be able to his own records anytime from view records tab present on its home page. 
